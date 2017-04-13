@@ -1,0 +1,418 @@
+/*
+(c) C. Mallet IGN - France
+*/
+
+html {
+	background: #fff;
+}
+
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	width: 100%;
+	display: table;
+	background: url(images/cvrs_header2.jpg) repeat-x;
+}
+
+a:link, a:visited {	color: #0073ae; text-decoration: none; }
+a:active, a:hover { color: #ff8b00; text-decoration: none; }
+
+p {
+	color: #666;
+	text-align: justify;
+	margin: 0 0 10px 0;	
+}
+
+h1 {
+	font-size: 18px;
+	color: #999;
+	margin: 0 0 10px 0;
+}
+
+.cvrs_container {
+	width: 930px;
+	margin: auto;
+}
+
+#cvrs_header {
+	width: 930px;
+	height: 225px;
+	padding: 2px 0 0 0;
+	margin: 0 0 25px 0;
+}
+
+#cvrs_slider {
+	clear: both;
+	width: 930px;
+	height: 320px;
+	padding: 0 10px;
+}
+
+#cvrs_logo_area {
+	float: left;
+	width: 930px;
+	height: 100px;
+	font-weight: bold;
+	color: #CCC;
+	margin: 40px 0 0 0;
+}
+
+#cvrs_logo {
+	font-size: 50px;	
+	margin: 0 0 15px 0;
+}
+#cvrs_logo a {
+	color: #CCC;
+	text-decoration: none;
+}
+#cvrs_slogan {
+	font-size: 22px;
+	margin: 0;
+
+}
+#cvrs_details2 {
+	font-size: 17px;
+	margin: 0;
+	color: #0073ae;
+	padding: 5px 0px 0px 10px;
+	float:left;
+}
+#cvrs_details {
+	font-size: 17px;
+	margin: 0;
+	padding: 15px 0px 0px 10px;
+	color: #ff8b00;
+}
+
+.field {
+	float: left;
+	width: 234px;
+	height: 23px;
+	border: none;	
+	border: none;
+	color : #ccc;
+	font-size: 15px;
+	padding: 5px 3px 0 3px;
+	background: #000;
+	border: 1px solid #333;
+
+}
+
+.button {
+	float: right;
+	width: 90px;
+	height: 30px;
+	border: none;	
+	background: url(images/cvrs_button.jpg) repeat-x;
+	border: 1px solid #333;
+	color : #ccc;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#cvrs_menu {
+	height: 28px;
+	float: left;
+	width: 930px;
+	margin: 40px 0 0 0;
+}
+
+#cvrs_menu ul {
+	list-style: none;
+	display: inline;
+}
+
+#cvrs_menu ul li {
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#cvrs_menu li a {
+	float: left;
+	height: 23px;
+	display: block;
+	color: #804000;
+	text-decoration: none;
+	font-size: 15px;	
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	margin: 0 5px 0 0;
+	padding: 5px 20px 0 20px;
+}
+
+#cvrs_menu li.current a, #cvrs_menu li a:hover {
+	background: url(images/cvrs_menu_current.jpg) repeat-x;
+	color: #fff;
+}
+
+#cvrs_image_fader {
+
+	width: 930px;
+	height: 240px;
+	padding: 0;
+	margin: 0 0 30px 0;
+}
+
+#cvrs_content_area {
+	width: 930px;
+}
+
+#cvrs_left {
+	width: 600px;
+	float: left;
+}
+
+.cvrs_post {
+	width:	600px;
+	margin: 0 0 10px 0 ;
+}
+
+.cvrs_post_title {
+	width: 580px;
+	height: 30px;
+	background:  url(images/cvrs_post_title.jpg) no-repeat;
+	font-size: 18px;
+	padding: 10px 0 0 20px;
+	margin: 0;
+}
+
+.cvrs_post_title a {
+	color: #666;
+	text-decoration: none;
+}
+
+.cvrs_post_title a:hover {
+	color: #0099CC;
+}
+
+.cvrs_post_text {
+	width: 558px;
+	font-size: 14px;
+	border-left: 1px #cccccc solid;
+	border-right: 1px #cccccc solid;
+	padding: 20px 20px 10px 20px;
+}
+
+.cvrs_post_text ul li {
+	margin: 0;
+	color: #666;
+	padding: 5px;
+}
+.cvrs_post_text_pc {
+	width: 558px;
+	font-size: 14px;
+	border-left: 1px #cccccc solid;
+	border-right: 1px #cccccc solid;
+	padding: 20px 20px 10px 20px;
+}
+
+.cvrs_post_text_pc ul li {
+	margin: 0;
+	color: #666;
+	padding: 4px;
+}
+
+.cvrs_post_text_aim {
+	width: 558px;
+	font-size: 14px;
+	border-left: 1px #cccccc solid;
+	border-right: 1px #cccccc solid;
+	padding: 20px 20px 10px 20px;
+}
+
+.cvrs_post_text_aim li.current 
+{
+font-weight:bold;
+	color: #ff8b00;
+}
+
+.cvrs_post_text_aim ul li {
+	margin: 0;
+	color: #666;
+	padding: 2px;
+}
+
+.cvrs_post_text_keynote {
+	width: 558px;
+	font-size: 14px;
+	border-left: 1px #cccccc solid;
+	border-right: 1px #cccccc solid;
+	padding: 20px 20px 10px 20px;
+}
+.cvrs_post_text_keynote ul li {
+	margin: 0;
+		list-style: none;
+	color: #666;
+
+}
+.cvrs_post_text_dates {
+	width: 558px;
+	font-size: 14px;
+	border-left: 1px #cccccc solid;
+	border-right: 1px #cccccc solid;
+	padding: 20px 20px 10px 20px;
+}
+.cvrs_post_text_dates ul li {
+	margin: 0;
+	color: #666;
+	padding: 4px;
+}
+.cvrs_post_text_dates li.current 
+{
+font-weight:bold;
+	color: #ff8b00;
+}
+.cvrs_post_text img {
+	float:left;
+	margin: 0 10px 10px 0;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+.cvrs_post_bottom {
+	width: 580px;
+	height: 30px;
+	background: url(images/cvrs_post_bottom2.jpg) no-repeat;
+	font-size: 12px;
+	text-align: right;
+	padding: 10px 20px 0 0;
+	margin: 0;
+}
+
+.cvrs_post_bottom a {
+	color: #666;
+	text-decoration: none;
+}
+
+.cvrs_post_bottom a:hover {
+	color: #0066CC;
+	text-decoration: underline;
+}
+
+#cvrs_right {
+	float: right;
+	width: 300px;
+}
+
+.cvrs_section {
+	width: 300px;
+	margin: 0 0 30px 0;
+}
+
+.cvrs_section_title {
+	width: 278px;
+	height: 30px;
+	background: url(images/cvrs_section_title.jpg);
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	font-size: 18px;
+	color: #666;
+	padding: 10px 0 0 20px;
+}
+
+.cvrs_section_bottom {
+	width: 258px;
+	background: url(images/cvrs_section_bottom.jpg) bottom no-repeat;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	padding: 15px 20px 10px 20px;
+}
+
+#cvrs_bottom_area {
+	background: url(images/cvrs_bottom.jpg) #000 repeat-x;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.cvrs_section_1 {
+	width: 178px;
+	float: left;
+	border: 1px solid #292929;
+	padding: 20px 20px 10px 20px;
+	margin: 0 20px 0 0;
+}
+
+.cvrs_section_2 {
+	width: 408px;
+	float: right;
+	border: 1px solid #292929;
+	padding: 20px 20px 10px 20px;
+	margin: 0;
+}
+
+#cvrs_footer {
+	width: 100%;
+	color: #AAA;
+	font-size: 11px;
+	background: url(images/cvrs_footer.jpg);
+	margin: 10px 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+#cvrs_footer a {
+	color: #AAA;
+	text-decoration: none;
+}
+
+#cvrs_footer a:hover {
+	color: #FFF;
+}
+
+.cvrs_list {
+	color: #333;
+	text-align: justify;
+	list-style: none;
+	padding: 0 0 0 10px;
+}
+
+.cvrs_list li {
+	font-size: 13px;
+	list-style: disc;
+	padding: 0px;
+	margin: 5px 0px;
+}
+
+.cvrs_list a {
+	color: #333;
+	text-decoration: none;
+}
+
+.cvrs_list a:hover {
+	color: #0066CC;
+	text-decoration: underline;
+}
+
+.cvrs_gray_list li, .cvrs_gray_list a {
+	color: #999;
+}
+
+.cvrs_gray_list a:hover {
+	color: #FFF;
+}
+
+.cleaner {
+	clear: both;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.cvrs_post_text_aim li.current 
+{
+font-weight:bold;
+	color: #ff8b00;
+}
+
+.current 
+{
+font-weight:bold;
+	color: #ff8b00;
+}
+
